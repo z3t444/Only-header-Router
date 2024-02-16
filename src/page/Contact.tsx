@@ -5,8 +5,9 @@ function Contact() {
   return (
     <>
       <div className="flex justify-between gap-3">
-        <div className="for-left-header-content">
-          <h3 className="font-bold">ZEETA</h3>
+        <div className="for-left-header gap-2 flex items-center">
+          <div className="p-4 rounded-full bg-[#653cd1]"></div>
+          <h3 className="font-bold text-4xl">Za.</h3>
         </div>
         <div className="flex items-center text-sm gap-3">
           <Link to="/">

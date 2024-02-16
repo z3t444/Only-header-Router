@@ -4,9 +4,10 @@ import { TextData } from "../utils/Home/text.tsx";
 function Home() {
   return (
     <>
-      <div className="flex justify-between">
-        <div className="left-header-content">
-          <h3 className="font-bold uppercase">Zeeta</h3>
+      <div className="flex items-center justify-between">
+        <div className="for-left-header gap-2 flex items-center">
+          <div className="p-4 rounded-full bg-[#653cd1]"></div>
+          <h3 className="font-bold text-4xl">Za.</h3>
         </div>
         <div className="flex text-sm gap-3">
           <h1>Home</h1>

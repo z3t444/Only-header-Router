@@ -4,9 +4,10 @@ import { DeskText } from "../utils/About/text";
 function About() {
   return (
     <>
-      <div className="flex gap-3 justify-between">
-        <div className="for-left-header">
-          <h3 className="font-bold">ZEETA</h3>
+      <div className="flex gap-3 items-center justify-between">
+        <div className="for-left-header gap-2 flex items-center">
+          <div className="p-4 rounded-full bg-[#653cd1]"></div>
+          <h3 className="font-bold text-4xl">Za.</h3>
         </div>
         <div className="flex gap-3 text-sm items-center">
           <Link to="/">
@@ -16,7 +17,7 @@ function About() {
           <Link to="/contact">Contact</Link>
         </div>
       </div>
-      <div className="flex justify-center mt-10">
+      <div className="flex justify-center text-sm mt-10">
         <p>{DeskText}</p>
       </div>
     </>
