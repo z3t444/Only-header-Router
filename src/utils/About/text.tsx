@@ -1,0 +1,1 @@
+export const DeskText = "This About Page"
