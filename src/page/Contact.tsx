@@ -15,6 +15,7 @@ function Contact() {
           </Link>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/blog">Blog</Link>
         </div>
       </div>
       <div className="flex justify-center">

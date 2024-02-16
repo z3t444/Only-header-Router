@@ -15,6 +15,7 @@ function About() {
           </Link>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/blog">Blog</Link>
         </div>
       </div>
       <div className="flex justify-center text-sm mt-10">

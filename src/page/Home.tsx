@@ -13,6 +13,7 @@ function Home() {
           <h1>Home</h1>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/blog">Blog</Link>
         </div>
       </div>
       <div className="section-content flex justify-center">

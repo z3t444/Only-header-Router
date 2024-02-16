@@ -1,0 +1,1 @@
+export const GetData = "this blog Page"
